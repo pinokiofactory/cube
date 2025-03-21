@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "3.6",
   title: "cube",
-  description: "",
+  description: "Roblox Foundation Model for 3D Intelligence https://github.com/Roblox/cube",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
